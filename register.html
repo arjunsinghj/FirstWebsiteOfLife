@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Register</title>
+    </head>
+    <img
+        src="https://upload.wikimedia.org/wikipedia/en/c/ce/Logo_of_Hansraj_College.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        alt="HRC-Logo"
+        height="100px"/>
+    <body>
+        <main>
+        <header>
+        <h1><a href="https://www.hansrajcollege.ac.in/">Hansraj College <!--This is just a comment that this is very slow--></a></h1>
+        <h2>Welcome to DU's largest Garba Night</h2>
+                <nav>
+            <a href="./index.html">Home</a> <a href="./events.html">Events</a> <a href="./register.html">Register</a>
+        </nav>
+        </header>
+                <section>
+
+        <h2>Register for the fest</h2>
+        <form action="/register">
+            <label for="Name">Enter your name</label>
+            <input type="text" name="Name" id="Name" required minlength="2" maxlength="16">
+            <br><br>
+            <label for="E-mail">Enter your E-mail</label>
+            <input type="email" name="E-mail" id="E-mail" required>
+            <br><br>
+            <label for="college_year">College Year</label>
+            <select name="college_year" id="college_year" required>
+            <option value="college_year">--Please select an option</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <br><br>
+            <label for="checkbox1">Do you agree to all terms and conditions</label>
+            <input type="checkbox" name="gender" id="checkbox1" required>
+            <br><br>
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" id="Male" value="Male">
+            <label for="Female">Female</label>
+            <input type="radio" name="gender" id="Female" value="Female">
+            <br><br>
+            <button type="submit">Register</button>
+        </section>
+    </main>
+
+        </form>
+
+</body>
+</html>
